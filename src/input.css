@@ -26,6 +26,19 @@ body {
   }
 }
 
+.menu-header {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.scroll-nav{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    border-width: 1px;
+--tw-border-opacity: 1;
+  border-bottom-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+
 @keyframes slide {
   0% {
     transform: translateX(0);
